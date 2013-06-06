@@ -1,0 +1,10 @@
+<h1>Todo List</h1>
+
+
+<h4>
+<% @todos.each do |todo| %>
+<P>name of entry: <%= todo.name %></p>
+<p>tags: <%= todo.tags %></p>
+<p>description: <%= todo.description %></p>
+<% end %>
+</h4>
